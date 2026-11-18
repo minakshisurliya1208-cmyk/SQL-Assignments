@@ -1,34 +1,39 @@
-SQL Assignments – PostgreSQL
+# SQL Assignments – PostgreSQL
 
-Project Overview
+## Project Overview
+
 This repository contains my SQL practice assignments using PostgreSQL. The project focuses on database creation, data insertion, SQL JOINs, filtering, and sorting.
 
- Project Objectives
+## Project Objectives
+
 - Understand relational database concepts.
 - Create and manage tables using SQL.
 - Practice Primary Key and Foreign Key relationships.
 - Retrieve data from multiple tables.
-- Apply SQL JOINs to real-world examples.
+- Apply SQL JOINs to practical examples.
 
-Database Structure
+## Database Structure
 
- 1. Customers Table
+### 1. Customers Table
+
 | Column | Data Type | Description |
-
+|---|---|---|
 | customer_id | INT | Primary Key |
 | name | VARCHAR(100) | Customer name |
 | city | VARCHAR(100) | Customer city |
 | email | VARCHAR(150) | Customer email |
 
- 2. Orders Table
-| Column | Data Type | Description |
+### 2. Orders Table
 
+| Column | Data Type | Description |
+|---|---|---|
 | order_id | INT | Primary Key |
 | customer_id | INT | Foreign Key |
 | amount | NUMERIC(10,2) | Order amount |
 | order_date | DATE | Order date |
 
- SQL Concepts Covered
+## SQL Concepts Covered
+
 1. CREATE TABLE
 2. INSERT INTO
 3. SELECT
@@ -40,7 +45,7 @@ Database Structure
 9. ORDER BY
 10. ASC and DESC
 
- Assignment 26 – SQL JOINs Practice
+## Assignment 26 – SQL JOINs Practice
 
 This assignment includes 10 practice questions covering:
 
@@ -55,19 +60,22 @@ This assignment includes 10 practice questions covering:
 - Sorting orders in descending order
 - Creating a business-level customer and order report
 
-Tools Used
+## Tools Used
+
 - PostgreSQL
 - pgAdmin 4
 - SQL
 - GitHub
 
- Repository File
-Assignment_26_SQL_Joins.sql`
+## Repository File
 
- Learning Outcome
+[Assignment_26_SQL_Joins.sql](Assignment_26_SQL_Joins.sql)
+
+## Learning Outcome
+
 Through this assignment, I practised relational database operations and learned how to combine, filter, and sort data using SQL JOINs.
 
+---
 
-
-Author: Minakshi  
-Learning Path: BCA | Data Analytics
+**Author:** Minakshi  
+**Learning Path:** BCA | Data Analytics
